@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karate Style</title>
+    <link rel="stylesheet" href="Css/Estilos.css">
+    <link rel="shortcut icon" href="img/Guantes.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+<nav class="Barra-navegacion">
+    <a href="inicio"> inicio </a>
+    <a href="acerca-de"> Acerca de </a>
+     <a href="articulos">articulos</a>
+     <a href="sobre nosotros">Sobre nosotros</a>
+     <a href="creditos">Créditos</a>
+</nav>
+<section class="textos-header">
+
+<h1> Los articulos mas buscados ahora con un 10% de descuento </h1>
+<h2> Servicio en todo el pais  </h2>
+
+</section>
+
+
+
+    </header>
+
+
+
+<main>
+
+    
+<section class="contenedor sobre-nosotros">
+
+<h2 class="titulo"> nuestros productos </h2>
+<di class="contenedor-sobre-nosotros">
+<img src="img/descarga (5).jpg" alt="" class="imagen-about-us">
+
+<div class="contenido-textos">
+<h3><Span>1</Span> Los mejores Productos</h3>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium atque inventore blanditiis nostrum voluptatem quidem sequi nulla, ratione laudantium ipsam optio in sint 
+    id vel autem veniam, repellendus error maxime.</p>
+
+    <h3><Span>2</Span> Los mejores Productos</h3>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium atque inventore blanditiis nostrum voluptatem quidem sequi nulla, ratione laudantium ipsam optio in sint 
+        id vel autem veniam, repellendus error maxime.</p>
+    </div>
+    </section>
+    
+<section class="portafolio">
+    <div class="contenedor">
+        <h2 class="titulo">portafolio</h2>
+<div class="galeria-port">
+ <div class="imagen-port">
+ <img src="img/231321321.jpg" alt="">
+<div class="hover-galeria"></div>
+
+<p>Nuestro Trabajo 1</p>
+
+    </div>
+ <div class="imagen-port">
+<img src="img/231321321.jpg" alt="">
+<div class="hover-galeria"></div>
+<p>Nuestro Trabajo 2</p>
+</div>
+
+<div class="imagen-port">
+    <img src="img/231321321.jpg" alt="">
+    <div class="hover-galeria"></div>
+    <p>Nuestro Trabajo 3</p>
+    </div>
+    <div class="imagen-port">
+        <img src="img/231321321.jpg" alt="">
+        <div class="hover-galeria"></div>
+        <p>Nuestro Trabajo 4</p>
+        </div>
+        <div class="imagen-port">
+            <img src="img/231321321.jpg" alt="">
+            <div class="hover-galeria"></div>
+            <p>Nuestro Trabajo 5</p>
+            </div>
+            <div class="imagen-port">
+                <img src="img/231321321.jpg" alt="">
+                <div class="hover-galeria"></div>
+                <p>Nuestro Trabajo 6</p>
+                </div>
+</div>
+</div>               
+  
+
+   
+</section>
+
+<section class="clientes contenedor">
+<h2 class="titulo">Que Dicen Nuestros clientes</h2>
+
+<div class="cars"></div>
+<img src="img/tey.jpg" alt="">
+<div class="texto-cards"></div>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, reiciendis!</p>
+<h4>Name</h4>
+
+<section class="cars"></section>
+<img src="img/tey.jpg" alt="">
+<div class="texto-cards"></div>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, reiciendis!</p>
+<h4>Name</h4>
+
+<section class="cars"></section>
+<img src="img/tey.jpg" alt="">
+<div class="texto-cards"></div>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, reiciendis!</p>
+<h4>Name</h4>
+
+</section>
+
+<section class="about-service">
+
+    <div class="contenedor">
+       <h2 class="titulo">Nuestros servicio</h2>
+
+       <div class="servicio-cont">
+        <div class="servicio-ind"></div>
+        <img src="img/rafa.png" alt="">
+<h3>Name 1</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, aperiam!</p>
+    
+    
+
+
+    <div class="servicio-ind"></div>
+    <img src="img/rafa.png" alt="">
+<h3>Name 2</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, aperiam!</p>

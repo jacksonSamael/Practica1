@@ -1,0 +1,175 @@
+
+nav {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding-top:3px;
+    padding-left: 40%;
+    padding-right:5%;
+    align-items: center;
+font-weight: bold;
+    }
+
+
+    h1{
+        color: beige;
+        font-size: 45px; 
+        margin: 3%;
+        }
+        
+        ul li{
+        display: inline-block;
+        padding: 20px;
+        }
+        a{
+        color: aliceblue;
+        text-decoration: none;    
+        }
+        a:hover{
+            color: aqua;
+        }
+
+        .imagen-inf{
+            position: absolute;
+            top: 6%;
+            left: 38%;
+        }
+        .imagen-lupa{
+            position: absolute;
+            top: 7%;
+            left: 05%;
+            transition: transform 0.3s ease-in-out;
+        }
+        .imagen-lupa:hover{
+            transform: scale(1.5);
+
+        }
+
+        /* header */
+
+        header{
+width: 100%;
+height: 600px;
+background: #000046de;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, hsla(193, 78%, 49%, 0.212),rgba(0, 0, 70, 0.44)6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, hsla(193, 78%, 49%, 0.342), hsla(240, 100%, 14%, 0.702)), url(../img/images\ \(1\).jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-size: cover;
+background-attachment: fixed;
+
+}
+.Wave{
+position: absolute;
+bottom: 0%;
+width: 100%;
+
+}
+
+header .Textos-Header{
+    display: flex;
+    align-items: center;
+    height: 360px;
+    width: 100%;
+    justify-content: center;
+}
+.descuento{
+    
+         /* Borde alrededor de la primera letra del texto */
+        padding: 2px;
+}
+
+.nuestros-productos {
+    text-align: center; /* Centra el texto horizontalmente */
+width: 100%;
+height: 60px;
+  background-color: black;  
+}
+
+.nuestros-productos h1 {
+    color: #faf6f6; /* Color del texto */
+    font-size: 46px; /* Tamaño del texto */
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .fila {
+    display: flex;
+  }
+
+  .imagen {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+margin: 0 auto 20px;
+margin-top: 80px;
+}
+
+.imagen {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .imagen:hover {
+    transform: scale(1.1);
+  }
+
+
+
+.mision {
+margin-top: 5%;
+width: 100%;
+height: 60px;
+  }
+
+  footer {
+    margin-top: 50%;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer-menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-menu ul li {
+    display: inline;
+    margin-right: 20px; /* Espaciado entre los elementos de la lista */
+  }
+  
+  .footer-menu ul li:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento de la lista */
+  }
+  
+  .footer-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-menu ul li a:hover {
+    text-decoration: underline; /* Subraya el enlace cuando se pasa el ratón sobre él */
+  }
+
+ 
+  .boton {
+    text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.btn {
+    background-color: #000000; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Elimina el borde del botón */
+    padding: 15px 100px; /* Espaciado interno del botón */
+    border-radius: 15px; /* Añade bordes redondeados al botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón sobre el botón */
+}
